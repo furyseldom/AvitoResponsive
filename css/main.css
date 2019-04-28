@@ -1,0 +1,505 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/*@font-face{
+    font-family:lato-bold;
+    src: url(fonts/Lato/Lato-Bold.tff);
+}
+
+*/
+
+.header-services-menu-icon-PXhUE:hover path {
+    fill: #b3b3b3
+}
+
+
+.workers-info-item:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: -5px;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.workers-info-item_1:before {
+    background-image: url(https://www.avito.st/s/cc/resources/1e3321cbba3b.svg);
+}
+
+.workers-info-item_2:before {
+    background-image: url(https://www.avito.st/s/cc/resources/3ccceb864540.svg);
+}
+
+.workers-info-item_4:before {
+    background-image: url(https://www.avito.st/s/cc/resources/311c9ee3ed7b.svg);
+}
+
+.workers-info-item_3:before {
+    background-image: url(https://www.avito.st/s/cc/resources/62b59b5f0be6.svg);
+}
+
+
+
+.facts-items-counter {
+    max-width: 776px;
+    max-height: 420px;
+    margin: 23px auto auto;
+    color: #0af;
+    font-size: 10vmax;
+}
+
+.facts-items-counter-subtext {
+    color: #8d9aa0;
+    font-size: 20px;
+
+}
+
+.mission {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.audience-title,
+.audience-text {
+    text-align: center;
+}
+
+.mission-content {
+    width: 400px;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+
+.facts-items-counter-value,
+.facts-items- {
+    text-align: center;
+}
+
+.audience-text {
+    font-size: 20px;
+    line-height: 28px;
+    color: #8d9aa0;
+}
+
+.header-bg {
+    display: inline-block;
+    position: relative;
+    left: 0;
+    width: 100%;
+    /*          background-color: #f5f5f5;
+            background-image: url(https://www.avito.st/s/cc/resources/73f29ad38378.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+    */
+}
+
+
+.workers {
+    height: 1050px;
+    background-image: url(https://www.avito.st/s/cc/resources/5293b4774965.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*2.5vw
+3.5vmax
+*/
+
+
+.numbers-item-title {
+    font-size: 2vmax;
+    margin-bottom: 9px;
+}
+
+.numbers-div {
+    height: 37px;
+    width: 60px;
+    margin-top: 40px;
+    margin-bottom: 4px;
+}
+
+
+
+#footernav a {
+    color: #0091d9;
+}
+
+.footer-desc {
+    color: #858585;
+    font-size: 11px;
+    color: #858585;
+    padding-bottom: 8px;
+}
+
+.footer-desc a {
+    text-decoration: underline;
+    color: #858585;
+}
+
+.footer-desc a:hover {
+    color: red;
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+        .header-bg {
+
+        width: 100%;
+        font-size: 26px;
+        line-height: 30px;
+        /* font-family: lato-bold;*/
+        border-bottom: 2px solid #CCC;
+    }
+
+    .header-title {
+        width: 100%;
+        height: 25%;
+        
+        /* text-shadow: #fff 0 0 2px; */
+    }
+    .facts-items-counter {
+        height: 200px;
+    }
+
+
+        
+
+    .numbers-title {
+        padding-top: 3.25vmax;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .numbers-placeholder {
+        height: 25px;
+    }
+
+    .audience-ligal {
+        margin-left: 5vmax;
+    }
+
+    .facts-items-counter-subtext,
+    .facts-numbers-left {
+        font-size: 2.3vmax;
+    }
+
+    .facts-numbers {
+        padding-top: 30px;
+    }
+
+    .footernav {
+        background-color: #f8f9fa;
+    }
+
+    .workers {
+        font-size: 2vmax;
+        text-shadow: #fff 0 0 4px;
+    }
+
+    .facts-items-counter-value {
+        font-size: 4vmax;
+        margin-bottom: 0;
+    }
+
+    .facts-items-counter-subtext {
+        margin-bottom: 0;
+    }
+
+    .workers-point {
+        line-height: 17px;
+        font-size: 17px;
+    }
+
+    .mission-title {
+        font-family: 'latobold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .facts-numbers-left,
+    .facts-numbers-remark-title {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 0;
+    }
+
+    .workers-info-con {
+        padding-left: 20px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 450px) {
+    .header-bg {
+        height: 50%;
+        width: 100%;
+        font-size: 26px;
+        line-height: 22px;
+        /* font-family: lato-bold;*/
+        background-image: url(https://www.avito.st/s/cc/resources/73f29ad38378.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    .header-title {
+        width: 100%;
+        height: 50%;
+    }
+    
+    .facts-items-counter {
+        height: 300px;
+    }
+
+    . .mission-title {
+        font-family: 'latobold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+
+    .numbers-title {
+        padding-top: 4.25vmax;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .numbers-placeholder {
+        height: 50px;
+    }
+
+    .audience-ligal {
+        margin-left: 5vmax;
+    }
+
+    .facts-numbers-left {
+        font-size: 2.5vmax;
+    }
+
+    .facts-items-counter-value {
+        font-size: 4vmax;
+        margin-bottom: 0;
+    }
+
+    .facts-items-counter-subtext {
+        margin-bottom: 0;
+    }
+
+    .facts-numbers {
+        padding-top: 30px;
+    }
+
+    .footernav {
+        background-color: #f8f9fa;
+    }
+
+    .facts-numbers-left,
+    .facts-numbers-remark-title {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 0;
+    }
+
+    .facts-numbers-left,
+    .facts-numbers-remark-title {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 0;
+    }
+
+    .workers-info-con {
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 800px) {
+    .header-bg {
+        height: 50%;
+        width: 100%;
+        font-size: 36px;
+        line-height: 32px;
+        /* font-family: lato-bold;*/
+        background-image: url(https://www.avito.st/s/cc/resources/73f29ad38378.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    .header-title {
+        width: 100%;
+        height: 50%;
+    }
+
+    .workers-point {
+        line-height: 17px;
+        font-size: 17px;
+    }
+
+    .facts-items-counter {
+        height: 300px;
+    }
+
+    .mission-title {
+        font-family: 'latobold', Arial, 'Helvetica Neue',Helvetica, sans-serif;
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    .facts-items-counter-value {
+        font-size: 8vmax;
+        margin-bottom: 0;
+    }
+
+    .numbers-title {
+        padding-top: 5.25vmax;
+        font-size: 28px;
+        line-height: 33px;
+        text-align: center;
+    }
+
+    .numbers-placeholder {
+        height: 50px;
+    }
+
+    .audience-ligal {
+        margin-left: 12vmax;
+    }
+
+    .facts-numbers-left {
+        font-size: 3vmax;
+    }
+
+    .facts-numbers {
+        padding-top: 60px;
+    }
+
+    .audience-title {
+        font-family: 'latobold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .footernav {
+        background-color: #f8f9fa;
+    }
+
+    .facts-numbers-left,
+    .facts-numbers-remark-title {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 0;
+    }
+
+    .workers-info-con {
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1600px) {
+     .header-bg {
+        height: 100%;
+        width: 100%;
+        font-size: 46px;
+        line-height: 52px;
+        /* font-family: lato-bold;*/
+  
+        background-image: url(https://www.avito.st/s/cc/resources/73f29ad38378.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    .header-title {
+        width: 50%;
+        height: 25%;
+
+    }
+    #nav-con {
+        width: 75%;
+    }
+    .facts-items-con {
+        padding-bottom: 129px;
+    }
+    .facts-items-counter {
+        height: 400px;
+    }
+
+    .mission-title {
+        font-family: 'latobold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .workers-point {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    
+    .facts-items-counter-value {
+        font-size: 10vmax;
+        line-height: 150px;
+    }
+
+
+    .audience-ligal {
+        margin-left: 24vmax;
+    }
+
+    .numbers-title {
+        padding-top: 6.25vmax;
+        font-size: 38px;
+        line-height: 43px;
+        text-align: center;
+    }
+
+    .workers-info-left {
+        font-size: 38px;
+    }
+
+    .numbers-placeholder {
+        height: 100px;
+    }
+
+
+    .facts-numbers {
+        padding-top: 120px;
+    }
+
+    .audience-title {
+        font-family: 'latobold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 38px;
+        line-height: 43px;
+        margin-bottom: 15px;
+    }
+
+    .facts-numbers-left,
+    .facts-numbers-remark-title {
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 0;
+    }
+}
+
+.facts-numbers-remark-description {
+    font-size: 16px;
+    line-height: 22px;
+    color: #8d9aa0;
+}
