@@ -412,7 +412,7 @@ body {
     }
 }
 
-@media (min-width: 800px) and (max-width: 1600px) {
+@media (min-width: 800px) and (max-width: 2600px) {
      .header-bg {
         height: 100%;
         width: 100%;
