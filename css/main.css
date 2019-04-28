@@ -4,6 +4,7 @@ body {
     width: 100%;
 }
 
+
 /*@font-face{
     font-family:lato-bold;
     src: url(fonts/Lato/Lato-Bold.tff);
@@ -133,25 +134,18 @@ body {
 }
 
 
-
-#footernav a {
-    color: #0091d9;
-}
-
 .footer-desc {
     color: #858585;
     font-size: 11px;
-    color: #858585;
     padding-bottom: 8px;
 }
 
-.footer-desc a {
+.footer-link {
     text-decoration: underline;
-    color: #858585;
 }
 
-.footer-desc a:hover {
-    color: red;
+a:hover:not(.footer-link){
+    text-decoration: none;
 }
 
 @media (min-width: 0px) and (max-width: 320px) {
@@ -247,7 +241,7 @@ body {
     .header-bg {
         height: 50%;
         width: 100%;
-        font-size: 20px;
+        font-size: 26px;
         line-height: 22px;
         /* font-family: lato-bold;*/
         background-image: url(https://www.avito.st/s/cc/resources/73f29ad38378.jpg);
