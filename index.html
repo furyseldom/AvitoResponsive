@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<!-- saved from url=(0028)https://www.avito.ru/company -->
 <html class="mdl-js">
 
 <head>
     <meta http-equiv="Content-Type" content="charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   
+
     <title>Об Avito </title>
 
     <link rel="stylesheet" href="css/main.css">
@@ -15,6 +14,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/scr.js"></script>
 </head>
 
 <body>
@@ -27,18 +28,20 @@
         <div class="container" id="nav-con">
             <div class="collapse navbar-collapse  navbars justify-content-between" id="navbar1">
                 <ul class="navbar-nav top-left-navbar">
-                    <li class="nav-item"><a href="#" class="nav-link">Объявления</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Магазины</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Бизнес</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Помощь</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link grey-link">Объявления</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link grey-link">Магазины</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link grey-link">Бизнес</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link grey-link">Помощь</a></li>
                 </ul>
                 <ul class="navbar-nav top-right-navbar ">
-                    <li class=" nav-item">
+                    <li class="nav-item">
                         <a href="https://www.avito.ru/favorites" title="Избранное" class="fav nav-link">
-                            <span class="header-services-menu-icon-wrap-STcWG"><span class="header-services-menu-icon-PXhUE"><svg width="21" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M10.918 5.085a5.256 5.256 0 0 1 7.524 0c2.077 2.114 2.077 5.541 0 7.655l-7.405 7.534a.75.75 0 0 1-1.074 0L2.558 12.74c-2.077-2.114-2.077-5.54 0-7.655a5.256 5.256 0 0 1 7.524 0c.15.152.289.312.418.479.13-.167.269-.327.418-.479z" fill="#CCC" fill-rule="nonzero"></path></svg></span><i class="header-icon-count-2EGgu header-icon-count_red-3f61L header-icon-count_hidden-3av6Y"></i></span>
+                            <span class="header-services-menu-icon-wrap-STcWG"><span class="header-services-menu-icon-PXhUE"><svg width="21" height="24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10.918 5.085a5.256 5.256 0 0 1 7.524 0c2.077 2.114 2.077 5.541 0 7.655l-7.405 7.534a.75.75 0 0 1-1.074 0L2.558 12.74c-2.077-2.114-2.077-5.54 0-7.655a5.256 5.256 0 0 1 7.524 0c.15.152.289.312.418.479.13-.167.269-.327.418-.479z" fill="#CCC" fill-rule="nonzero"></path>
+                                    </svg></span><i class="header-icon-count-2EGgu header-icon-count_red-3f61L header-icon-count_hidden-3av6Y"></i></span>
                         </a>
                     </li>
-                    <li class="nav-item"><a href="#" class="nav-link">Вход и регистрация</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link blue-link">Вход и регистрация</a></li>
                 </ul>
             </div>
         </div>
@@ -51,18 +54,23 @@
                     <li class="brand nav-item"><a href="https://www.avito.ru/vladikavkaz" class="nav-brand">
                             <img width="115" height="40" src="https://www.avito.st/s/cc/resources/35f5a0d67b53.svg" size alt="logo">
                         </a></li>
-                    <li class="nav-item active"><a href="#" class="nav-link">О компании</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Люди</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link active disabled">О компании</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link blue-link">Люди</a></li>
+                    <!-- style="color:#0091d9;" onmouseout="this.style.color='#0091d9';" onmouseover="this.style.color='red';"-->
+
+                    <li class="nav-item"><a href="#" class="nav-link blue-link">Контакты</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <header class="header-bg d-flex"><!-- w-100 h-100-->
+    <header class="header-bg d-flex">
+        <!-- w-100 h-100-->
         <div class="d-flex align-self-start align-items-center justify-content-center h-25 w-100">
-            <div class="header-title text-center"> <!--w-50 h-25--><p>Avito — сайт частных объявлений № 1 в России<sup>*</sup></p>
-        </div>
+            <div class="header-title text-center">
+                <!--w-50 h-25-->
+                <p>Avito — сайт частных объявлений № 1 в России<sup>*</sup></p>
+            </div>
         </div>
     </header>
 
@@ -93,17 +101,17 @@
         </div>
     </section>
 
-<div class="facts-items-con ">
-      <div class="facts-items-counter d-flex flex-column justify-content-around  w-100 " style="background: url(https://www.avito.st/s/cc/resources/3224f1f9009e.jpg) no-repeat center;background-size: contain;">
-        <div class=" align-self-center text-center" >
-            <p class="facts-items-counter-value"style="color: #0af;">52 701 690</p>
-            <p class="facts-items-counter-subtext align-self-center" style="color: #8d9aa0; ">
-                Количество объявлений сейчас на Avito
-            </p>
+    <div class="facts-items-con ">
+        <div class="facts-items-counter d-flex flex-column justify-content-around  w-100 " style="background: url(https://www.avito.st/s/cc/resources/3224f1f9009e.jpg) no-repeat center;background-size: contain;">
+            <div class=" align-self-center text-center">
+                <p class="facts-items-counter-value" style="color: #0af;">52 701 690</p>
+                <p class="facts-items-counter-subtext align-self-center" style="color: #8d9aa0; ">
+                    Количество объявлений сейчас на Avito
+                </p>
+            </div>
         </div>
-    </div>
 
-</div>
+    </div>
     <div class="container-fluid">
         <div class="row align-items-start ">
             <div class=" col-md-6 pl-md-0">
@@ -206,9 +214,9 @@
     </section>
 
     <div class="container-fluid w-75" style="font-size:11px; padding-top: 24px;">
-        <div> <sup>*</sup>Avito — сайт объявлений № 1 в России — <a href="https://www.similarweb.com/website/avito.ru" target="_blank" style="color:#000;">https://www.similarweb.com/website/avito.ru</a> </div>
+        <div> <sup>*</sup>Avito — сайт объявлений № 1 в России — <a href="https://www.similarweb.com/website/avito.ru" target="_blank" class="black-link">https://www.similarweb.com/website/avito.ru</a> </div>
         <div style="margin-top: 10px;">
-            В 2017 и 2018 гг. в&nbsp;ООО&nbsp;«КЕХ еКоммерц» была проведена специальная оценка условий труда. В&nbsp;результате оценки установлено, что <a style="color: #0091d9;" target="_blank" rel="noopener noreferrer" href="https://www.avito.ru/files/promo/company/%D0%A1%D0%B2%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BE%D1%81%D1%82%D0%B8.7z">условия труда на&nbsp;рабочих местах соответствуют государственным нормативным требованиям охраны труда</a>, вредные и&nbsp;опасные производственные факторы на&nbsp;рабочих местах отсутствуют. В&nbsp;связи с&nbsp;этим дополнительные <a style="color: #0091d9;" target="_blank" rel="noopener noreferrer" href="https://www.avito.ru/files/promo/company/%D0%9F%D0%B5%D1%80%D0%B5%D1%87%D0%BD%D0%B8%20%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B8%CC%86.7z">мероприятия по&nbsp;улучшению условий и&nbsp;охраны труда работников на&nbsp;данных рабочих местах не&nbsp;требуются</a>. </div>
+            В 2017 и 2018 гг. в&nbsp;ООО&nbsp;«КЕХ еКоммерц» была проведена специальная оценка условий труда. В&nbsp;результате оценки установлено, что <a class="blue-link" target="_blank" rel="noopener noreferrer" href="https://www.avito.ru/files/promo/company/%D0%A1%D0%B2%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BE%D1%81%D1%82%D0%B8.7z">условия труда на&nbsp;рабочих местах соответствуют государственным нормативным требованиям охраны труда</a>, вредные и&nbsp;опасные производственные факторы на&nbsp;рабочих местах отсутствуют. В&nbsp;связи с&nbsp;этим дополнительные <a target="_blank" class="blue-link" rel="noopener noreferrer" href="https://www.avito.ru/files/promo/company/%D0%9F%D0%B5%D1%80%D0%B5%D1%87%D0%BD%D0%B8%20%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B8%CC%86.7z">мероприятия по&nbsp;улучшению условий и&nbsp;охраны труда работников на&nbsp;данных рабочих местах не&nbsp;требуются</a>. </div>
     </div>
 
     <!-- Навбар в подвале страницы -->
@@ -222,33 +230,32 @@
             <ul class="navbar-nav bg-light container w-75" style="border-bottom: 1px solid #e1e1e1;">
                 <div class="row justify-content-center">
                     <li class="nav-item col">
-                        <a class="nav-link" href="https://www.avito.ru/additem" title="Подать объявление">Подать объявление</a></li>
+                        <a class="nav-link blue-link" href="https://www.avito.ru/additem" title="Подать объявление">Подать объявление</a></li>
                     <li class="nav-item col">
-                        <a class="nav-link" href="https://www.avito.ru/sochi/">Объявления</a></li>
+                        <a class="nav-link blue-link" href="https://www.avito.ru/sochi/">Объявления</a></li>
                     <li class="nav-item col">
-                        <a class="nav-link" href="https://www.avito.ru/shops">Магазины</a></li>
+                        <a class="nav-link blue-link" href="https://www.avito.ru/shops">Магазины</a></li>
                     <li class="nav-item col">
-                        <a class="nav-link" href="https://support.avito.ru/" target="_blank" rel="noopener noreferrer">Помощь</a></li>
+                        <a class="nav-link blue-link" href="https://support.avito.ru/" target="_blank" rel="noopener noreferrer">Помощь</a></li>
                     <li class="nav-item col">
-                        <a class="nav-link" href="https://www.avito.ru/safety">Безопасность</a></li>
+                        <a class="nav-link blue-link" href="https://www.avito.ru/safety">Безопасность</a></li>
                     <li class="nav-item col">
-                        <a class="nav-link" href="https://www.avito.ru/reklama/advertising" rel="nofollow">Реклама на сайте</a></li>
+                        <a class="nav-link blue-link" href="https://www.avito.ru/reklama/advertising" rel="nofollow">Реклама на сайте</a></li>
                     <li class="nav-item col">
-                        <a class="nav-link" href="https://www.avito.ru/company">О компании</a></li>
+                        <a class="nav-link blue-link" href="https://www.avito.ru/company">О компании</a></li>
                     <li class="nav-item col">
-                        <a class="nav-link" href="https://www.avito.ru/company/job">Карьера</a></li>
+                        <a class="nav-link blue-link" href="https://www.avito.ru/company/job">Карьера</a></li>
                     <li class="nav-item col">
-                        <a class="nav-link" href="https://www.avito.ru/info/apps"><strong>Мобильное приложение</strong></a></li>
+                        <a class="nav-link blue-link" href="https://www.avito.ru/info/apps"><strong>Мобильное приложение</strong></a></li>
                 </div>
             </ul>
         </div>
     </nav>
 
     <div class="footer-desc container-fluid w-75">
-        <div class="footer-about-12ZK4">Авито — сайт объявлений. © ООО «КЕХ еКоммерц» 2007–2019. <a class="footer-site-info-link-PZQTP" href="https://support.avito.ru/articles/200026948">Условия использования Авито</a>. <a class="footer-site-info-link-PZQTP" href="https://www.avito.ru/safety/personal/company">Политика о данных пользователей</a>. Оплачивая услуги на Авито, вы принимаете <a class="footer-site-info-link-PZQTP" href="https://support.avito.ru/articles/200026938">оферту</a>.
+        <div>Авито — сайт объявлений. © ООО «КЕХ еКоммерц» 2007–2019. <a class="footer-link" href="https://support.avito.ru/articles/200026948">Условия использования Авито</a>. <a class="footer-link" href="https://www.avito.ru/safety/personal/company">Политика о данных пользователей</a>. Оплачивая услуги на Авито, вы принимаете <a class="footer-link" href="https://support.avito.ru/articles/200026938">оферту</a>.
         </div>
     </div>
-
 </body>
 
 </html>
