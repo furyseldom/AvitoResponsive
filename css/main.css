@@ -246,6 +246,12 @@ a:hover:not(.footer-link) {
     .footer-nav {
         font-size: 11px;
     }
+    
+    .navbar-footer-line {
+        border-bottom: 1px solid #e1e1e1;
+        background: #f8f9fa;
+    }
+
 }
 
 
