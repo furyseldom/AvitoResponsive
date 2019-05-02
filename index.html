@@ -20,12 +20,12 @@
 
 <body>
     <!-- Навбар самый первый-->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light" style="border-top: 1px solid #d8d8d8; border-bottom: 1px solid #d8d8d8; font-size: 14px;">
+    <nav class="navbar navbar-expand-sm navbar-light first-navbar">
         <button class="navbar-toggler navbar-toggler-right align-self-center my-2" type="button" data-toggle="collapse" data-target=".navbars">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="container" id="nav-con">
+        <div id="nav-con">
             <div class="collapse navbar-collapse  navbars justify-content-between" id="navbar1">
                 <ul class="navbar-nav top-left-navbar">
                     <li class="nav-item"><a href="#" class="nav-link grey-link">Объявления</a></li>
@@ -48,16 +48,14 @@
     </nav>
 
     <nav class="navbar navbar-expand-sm navbar-light">
-        <div class="container" id="nav-con">
+        <div id="nav-con">
             <div class="navbar-collapse collapse navbars" id="navbar2">
                 <ul class="navbar-nav top-left-navbar">
-                    <li class="brand nav-item"><a href="https://www.avito.ru/vladikavkaz" class="nav-brand">
+                    <li class="brand nav-item"><a href="https://www.avito.ru/vladikavkaz" class="nav-brand" title="Авито - сайт объявлений">
                             <img width="115" height="40" src="https://www.avito.st/s/cc/resources/35f5a0d67b53.svg" size alt="logo">
                         </a></li>
                     <li class="nav-item"><a href="#" class="nav-link active disabled">О компании</a></li>
                     <li class="nav-item"><a href="#" class="nav-link blue-link">Люди</a></li>
-                    <!-- style="color:#0091d9;" onmouseout="this.style.color='#0091d9';" onmouseover="this.style.color='red';"-->
-
                     <li class="nav-item"><a href="#" class="nav-link blue-link">Контакты</a></li>
                 </ul>
             </div>
@@ -65,30 +63,19 @@
     </nav>
 
     <header class="header-bg d-flex">
-        <!-- w-100 h-100-->
         <div class="d-flex align-self-start align-items-center justify-content-center h-25 w-100">
             <div class="header-title text-center">
-                <!--w-50 h-25-->
-                <p>Avito — сайт частных объявлений № 1 в России<sup>*</sup></p>
+                <p><strong>Avito — сайт частных объявлений <br> № 1 в России<sup>*</sup></strong></p>
             </div>
         </div>
     </header>
 
-    <!--<div>
-        <div class="header-bg">
-            <img src="https://www.avito.st/s/cc/resources/73f29ad38378.jpg" class="img-fluid" alt="">
-            <header class="header">
-                <h1 class="header-title">Avito — сайт частных объявлений<br>№ 1 в России<sup>*</sup></h1>
-            </header>
-        </div>
-    </div>
-    -->
-    <section class="facts container">
+    <section class="facts-section">
         <div class="facts-numbers row justify-content-center align-items-baseline">
-            <div class="facts-numbers-left col-sm-6 ">
+            <div class="facts-numbers-left col-md-6 col-sm-8 ">
                 Вот уже 10 лет мы&nbsp;растём <br>и&nbsp;развиваемся, помогая <br> миллионам людей совершать <br> выгодные сделки по&nbsp;всей <br>стране.<br>
             </div>
-            <div class="facts-numbers-right col-sm-2">
+            <div class="facts-numbers-right col-md-2 col-sm-4">
                 <div class="facts-numbers-remark">
                     <p class="facts-numbers-remark-title">120</p>
                     <p class="facts-numbers-remark-description">сделок в минуту</p>
@@ -129,7 +116,7 @@
 
 
 
-    <section class="audience" style="padding-top: 110px;">
+    <section class="audience-section">
         <h2 class="audience-title">Avito — это аудитория размером с целую страну</h2>
         <p class="audience-text">Каждый месяц Avito посещают более 32 миллионов человек.</p>
         <div class="audience-circles-img">
@@ -138,61 +125,59 @@
         <p class="audience-ligal">данные за февраль 2018 г.</p>
     </section>
 
-    <div class="placeholder" style="height: 105px;"></div>
-
-    <section class="numbers-con bg-light">
+    <section class="numbers-bg bg-light">
         <h2 class="numbers-title">Avito — это миллионы объявлений</h2>
-        <div class="numbers container-fluid  bg-light">
-            <div class="row justify-content-space-between align-items-start w-75" style="margin-left: 20%;">
-                <div class="numbers-item col-md-2">
+        
+        <div class="numbers-con container-fluid d-flex justify-content-center bg-light">
+            <div class="numbers-row row justify-content-around align-items-start">
+                <div class="numbers-item col-6 col-sm-2">
                     <div class="numbers-div">
                         <img src="https://www.avito.st/s/cc/resources/01edbcd95a73.svg" alt="">
                     </div>
                     <div class="numbers-item-title">2,5 млн</div>
-                    <div class="numbers-item-description">
-                        объявлений в&nbsp;разделе о&nbsp;недвижимости </div>
+                    <div class="numbers-item-description"> объявлений<br> в разделе<br> о недвижимости
+                    </div>
                 </div>
-                <div class="numbers-item col-md-2 ">
+                <div class="numbers-item col-6 col-sm-2">
                     <div class="numbers-div">
                         <img src="https://www.avito.st/s/cc/resources/344643059b8a.svg" alt="">
                     </div>
                     <div class="numbers-item-title">800 000</div>
                     <div class="numbers-item-description">
-                        резюме и&nbsp;вакансий </div>
+                        резюме <br> и вакансий </div>
                 </div>
-                <div class="numbers-item col-md-2 ">
+                <div class="numbers-item col-6 col-sm-2">
                     <div class="numbers-div">
                         <img src="https://www.avito.st/s/cc/resources/b0be742d1e7f.svg" alt="">
                     </div>
                     <div class="numbers-item-title">1 млн</div>
                     <div class="numbers-item-description">
-                        предложений услуг </div>
+                        предложений <br> услуг </div>
                 </div>
-                <div class="numbers-item col-md-2 ">
+                <div class="numbers-item col-6 col-sm-2">
                     <div class="numbers-div">
                         <img src="https://www.avito.st/s/cc/resources/1a81978b9836.svg" alt="">
                     </div>
                     <div class="numbers-item-title">700 000</div>
                     <div class="numbers-item-description">
-                        объявлений о&nbsp;продаже автомобилей </div>
+                        объявлений <br> о продаже <br> автомобилей
+                    </div>
                 </div>
-                <div class="numbers-item col-md-2 ">
+                <div class="numbers-item col-12 col-sm-2">
                     <div class="numbers-div">
                         <img src="https://www.avito.st/s/cc/resources/f1985128fc40.svg" alt="">
                     </div>
                     <div class="numbers-item-title">31 млн</div>
                     <div class="numbers-item-description">
-                        объявлений в&nbsp;разделе «Товары» </div>
+                        объявлений <br> в разделе <br>«Товары»
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="numbers-placeholder"></div>
     </section>
 
-    <div class="placeholder" style="height:30px;"></div>
-
-    <section class="workers">
-        <div class="workers-info container-fluid ">
+    <section class="workers-bg">
+        <div class="workers-info-all container-fluid ">
             <div class="workers-info-con row justify-content-end align-items-baseline">
                 <div class="workers-info-left col-md-4 ">
                     Новейшие интеллектуальные технологии Avito помогают нашим клиентам </div>
@@ -206,49 +191,51 @@
                 <div class="workers-info-item workers-info-item_4 col-md-3">В неделю автоматические системы проверяют приблизительно 10 млн объявлений.</div>
             </div>
         </div>
-
-        <div class="workers-placeholder" style="height: 60px;"></div>
-        <div class="workers-point text-center">
-            Обеспечение безопасности и прозрачности сделок— наша <br>приоритетная цель. Каждый день лучшие специалисты Avito работают<br> над тем, чтобы вам было ещё проще, удобнее и&nbsp;безопаснее решать свои<br> самые разные задачи по&nbsp;всей стране. </div>
-
+    <div class="workers-point text-center">
+            Обеспечение безопасности и прозрачности сделок— наша <br>приоритетная цель. Каждый день лучшие специалисты Avito работают<br> над тем, чтобы вам было ещё проще, удобнее и безопаснее решать свои<br> самые разные задачи по всей стране. </div>
     </section>
 
     <div class="container-fluid w-75" style="font-size:11px; padding-top: 24px;">
         <div> <sup>*</sup>Avito — сайт объявлений № 1 в России — <a href="https://www.similarweb.com/website/avito.ru" target="_blank" class="black-link">https://www.similarweb.com/website/avito.ru</a> </div>
         <div style="margin-top: 10px;">
-            В 2017 и 2018 гг. в&nbsp;ООО&nbsp;«КЕХ еКоммерц» была проведена специальная оценка условий труда. В&nbsp;результате оценки установлено, что <a class="blue-link" target="_blank" rel="noopener noreferrer" href="https://www.avito.ru/files/promo/company/%D0%A1%D0%B2%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BE%D1%81%D1%82%D0%B8.7z">условия труда на&nbsp;рабочих местах соответствуют государственным нормативным требованиям охраны труда</a>, вредные и&nbsp;опасные производственные факторы на&nbsp;рабочих местах отсутствуют. В&nbsp;связи с&nbsp;этим дополнительные <a target="_blank" class="blue-link" rel="noopener noreferrer" href="https://www.avito.ru/files/promo/company/%D0%9F%D0%B5%D1%80%D0%B5%D1%87%D0%BD%D0%B8%20%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B8%CC%86.7z">мероприятия по&nbsp;улучшению условий и&nbsp;охраны труда работников на&nbsp;данных рабочих местах не&nbsp;требуются</a>. </div>
+            В 2017 и 2018 гг. в ООО «КЕХ еКоммерц» была проведена специальная оценка условий труда. В&nbsp;результате оценки установлено, что <a class="blue-link" target="_blank" rel="noopener noreferrer" href="https://www.avito.ru/files/promo/company/%D0%A1%D0%B2%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BE%D1%81%D1%82%D0%B8.7z">условия труда нарабочих местах соответствуют государственным нормативным требованиям охраны труда</a>, вредные иопасные производственные факторы на рабочих местах отсутствуют. В связи с этим дополнительные <a target="_blank" class="blue-link" rel="noopener noreferrer" href="https://www.avito.ru/files/promo/company/%D0%9F%D0%B5%D1%80%D0%B5%D1%87%D0%BD%D0%B8%20%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B8%CC%86.7z">мероприятия по&nbsp;улучшению условий и&nbsp;охраны труда работников на&nbsp;данных рабочих местах не&nbsp;требуются</a>. </div>
     </div>
 
     <!-- Навбар в подвале страницы -->
-    <nav class="footernav navbar navbar-expand-sm " style="font-size: 11px;">
-        <div class="bg-light w-sm-100">
-            <button class="navbar-toggler align-self-center navbar-light" type="button" data-toggle="collapse" data-target="#footernav">
+    <nav class="navbar-footer-line navbar-expand-sm">
+        <div class="">
+            <button class="navbar-toggler align-self-center navbar-light" type="button" data-toggle="collapse" data-target="#nav3">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
-        <div id="footernav" class="collapse navbar-collapse">
-            <ul class="navbar-nav bg-light container w-75" style="border-bottom: 1px solid #e1e1e1;">
-                <div class="row justify-content-center">
-                    <li class="nav-item col">
-                        <a class="nav-link blue-link" href="https://www.avito.ru/additem" title="Подать объявление">Подать объявление</a></li>
-                    <li class="nav-item col">
-                        <a class="nav-link blue-link" href="https://www.avito.ru/sochi/">Объявления</a></li>
-                    <li class="nav-item col">
-                        <a class="nav-link blue-link" href="https://www.avito.ru/shops">Магазины</a></li>
-                    <li class="nav-item col">
-                        <a class="nav-link blue-link" href="https://support.avito.ru/" target="_blank" rel="noopener noreferrer">Помощь</a></li>
-                    <li class="nav-item col">
-                        <a class="nav-link blue-link" href="https://www.avito.ru/safety">Безопасность</a></li>
-                    <li class="nav-item col">
-                        <a class="nav-link blue-link" href="https://www.avito.ru/reklama/advertising" rel="nofollow">Реклама на сайте</a></li>
-                    <li class="nav-item col">
-                        <a class="nav-link blue-link" href="https://www.avito.ru/company">О компании</a></li>
-                    <li class="nav-item col">
-                        <a class="nav-link blue-link" href="https://www.avito.ru/company/job">Карьера</a></li>
-                    <li class="nav-item col">
-                        <a class="nav-link blue-link" href="https://www.avito.ru/info/apps"><strong>Мобильное приложение</strong></a></li>
+        
+    <div class="footer-nav bg-light">
+        <div id="nav3" class="collapse navbar-collapse ">
+            <div class="container-fluid">
+                 <ul class="navbar-nav justify-content-between">
+                    <li class="nav-item">
+        <a class="nav-link blue-link" href="https://www.avito.ru/additem" title="Подать объявление">Подать объявление</a>
+                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link blue-link" href="https://www.avito.ru/sochi/">Объявления</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link blue-link" href="https://www.avito.ru/shops">Магазины</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link blue-link" href="https://support.avito.ru/" target="_blank" rel="noopener noreferrer">Помощь</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link blue-link" href="https://www.avito.ru/safety">Безопасность</a></li>
+                            <li class="nav-item" >
+                                <a class="nav-link blue-link" href="https://www.avito.ru/reklama/advertising" rel="nofollow">Реклама на сайте</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link blue-link" href="https://www.avito.ru/company">О компании</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link blue-link" href="https://www.avito.ru/company/job">Карьера</a></li>
+                            <li class="nav-item" >
+                                <a class="nav-link blue-link" href="https://www.avito.ru/info/apps"><strong>Мобильное 
+                                приложение</strong></a></li>  
+                    </ul>
                 </div>
-            </ul>
+            </div>
         </div>
     </nav>
 
@@ -257,5 +244,4 @@
         </div>
     </div>
 </body>
-
 </html>
