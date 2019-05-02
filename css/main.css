@@ -631,8 +631,8 @@ a:hover:not(.footer-link) {
         padding-top: 120px;
     }
 
-    .facts-section {
-        width: 75%;
+      .facts-section {
+    margin: 0 auto;
     }
 
     .audience-section {
