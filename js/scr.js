@@ -3,6 +3,15 @@
         var greyLink = $(".grey-link");
         var blackLink = $(".black-link")
         var footerLink = $(".footer-link");
+        
+        if($(Document).width() > 800 ){
+            $(".facts-section").addClass("container");
+
+        }
+        if($(Document).width() < 800 ){
+            $(".facts-section").addClass("container-fluid");
+        
+        }
         /*Код для синих ссылок в навбарах наверху*/
         $(blueLink).css('color', '#0091d9');
         $(blueLink).mouseover(function () {
@@ -41,5 +50,6 @@
         $(footerLink).mouseout(function () {
             $(this).css('color', '#858585');
         });
+        
     });
       
