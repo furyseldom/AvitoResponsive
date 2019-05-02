@@ -6,7 +6,6 @@ body {
 
 .first-navbar {
     background: #f7f7f7;
-    border-top: 1px solid #d8d8d8;
     border-bottom: 1px solid #d8d8d8;
     font-size: 14px;
 }
@@ -15,6 +14,14 @@ body {
     fill: #b3b3b3
 }
 
+
+.workers-bg {
+    height: 1050px;
+    background-image: url(https://www.avito.st/s/cc/resources/5293b4774965.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .workers-info-item:before {
     content: '';
@@ -98,44 +105,12 @@ body {
     position: relative;
     left: 0;
     width: 100%;
-    /*          background-color: #f5f5f5;
-            background-image: url(https://www.avito.st/s/cc/resources/73f29ad38378.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: 50% 50%;
-    */
 }
-
-
-.workers {
-    height: 1050px;
-    background-image: url(https://www.avito.st/s/cc/resources/5293b4774965.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/*2.5vw
-3.5vmax
-*/
-
-
-.numbers-item-title {
-    font-size: 2vmax;
-    margin-bottom: 9px;
-}
-
-.numbers-div {
-    height: 37px;
-    width: 60px;
-    margin-top: 40px;
-    margin-bottom: 4px;
-}
-
 
 .footer-desc {
     color: #858585;
     font-size: 11px;
+    margin-top: 5px;
     padding-bottom: 8px;
 }
 
@@ -148,6 +123,10 @@ a:hover:not(.footer-link) {
 }
 
 @media (min-width: 0px) and (max-width: 320px) {
+    #nav-con {
+        width: 100%;
+    }
+
     .header-bg {
 
         width: 100%;
@@ -160,48 +139,57 @@ a:hover:not(.footer-link) {
     .header-title {
         width: 100%;
         height: 25%;
-
-        /* text-shadow: #fff 0 0 2px; */
     }
 
     .facts-items-counter {
         height: 200px;
     }
 
+    .mission-text,
+    .facts-items-counter-subtext,
+    .audience-text {
+        font-size: 13px;
+        line-height: 16px;
+        color: #8d9aa0;
+    }
 
+    .numbers-item-description {
+        font-size: 10px;
+        color: #8d9aa0;
+    }
 
+    .numbers-div {
+        height: 37px;
+        width: 60px;
+        margin-top: 40px;
+        margin-bottom: 14px;
+    }
 
     .numbers-title {
         padding-top: 3.25vmax;
-        font-size: 16px;
-        line-height: 20px;
+        font-family: 'latobold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 700;
         text-align: center;
-    }
-
-    .numbers-placeholder {
-        height: 25px;
     }
 
     .audience-ligal {
         margin-left: 5vmax;
     }
 
-    .facts-items-counter-subtext,
-    .facts-numbers-left {
-        font-size: 2.3vmax;
+    .audience-title {
+        font-family: 'latobold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 25px;
+        line-height: 25px;
+        margin-bottom: 15px;
+        font-weight: 550;
     }
+
+
 
     .facts-numbers {
         padding-top: 30px;
-    }
-
-    .footernav {
-        background-color: #f8f9fa;
-    }
-
-    .workers {
-        font-size: 2vmax;
-        text-shadow: #fff 0 0 4px;
     }
 
     .facts-items-counter-value {
@@ -215,17 +203,33 @@ a:hover:not(.footer-link) {
 
     .workers-point {
         line-height: 17px;
+        text-shadow: 1px 1px 2.5px #fff;
         font-size: 17px;
+        margin-top: 50px;
+        font-weight: 450;
+    }
+
+    .workers-info-left {
+        font-size: 17px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+
+    .workers-info-item {
+        font-size: 12px;
+        line-height: 15px;
+        color: #839096;
     }
 
     .mission-title {
         font-family: 'latobold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 18px;
     }
 
     .facts-numbers-left,
-    .facts-numbers-remark-title {
+    .facts-numbers-remark-title,
+    .numbers-item-title {
         font-size: 20px;
         line-height: 30px;
         margin-bottom: 0;
@@ -238,10 +242,18 @@ a:hover:not(.footer-link) {
     .workers-info-con {
         padding-left: 20px;
     }
+
+    .footer-nav {
+        font-size: 11px;
+    }
 }
 
 
 @media (min-width: 320px) and (max-width: 450px) {
+    #nav-con {
+        width: 100%;
+    }
+
     .header-bg {
         height: 50%;
         width: 100%;
@@ -264,7 +276,15 @@ a:hover:not(.footer-link) {
         height: 200px;
     }
 
-    . .mission-title {
+    .mission-text,
+    .facts-items-counter-subtext,
+    .numbers-item-description .audience-text {
+        font-size: 16px;
+        line-height: 25px;
+        color: #8d9aa0;
+    }
+
+    .mission-title {
         font-family: 'latobold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
         font-size: 25px;
         line-height: 25px;
@@ -273,8 +293,10 @@ a:hover:not(.footer-link) {
 
     .numbers-title {
         padding-top: 4.25vmax;
-        font-size: 20px;
-        line-height: 25px;
+        font-family: 'latobold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 700;
         text-align: center;
     }
 
@@ -284,6 +306,14 @@ a:hover:not(.footer-link) {
 
     .audience-ligal {
         margin-left: 5vmax;
+    }
+
+    .audience-title {
+        font-family: 'latobold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 15px;
+        font-weight: 600;
     }
 
     .facts-numbers-left {
@@ -307,30 +337,53 @@ a:hover:not(.footer-link) {
         margin-top: 20px;
     }
 
-    .footernav {
-        background-color: #f8f9fa;
-    }
 
     .facts-numbers-left,
-    .facts-numbers-remark-title {
+    .facts-numbers-remark-title,
+    .numbers-item-title {
         font-size: 20px;
         line-height: 30px;
         margin-bottom: 0;
     }
 
-    .facts-numbers-left,
-    .facts-numbers-remark-title {
-        font-size: 25px;
-        line-height: 35px;
-        margin-bottom: 0;
+    .workers-info-left {
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 500;
+    }
+
+    .workers-info-item {
+        font-size: 16px;
+        line-height: 22px;
+        color: #839096;
     }
 
     .workers-info-con {
         padding-left: 20px;
     }
+
+    .workers-point {
+        line-height: 25px;
+        font-size: 20px;
+        margin-top: 50px;
+        font-weight: 450;
+    }
+
+    .navbar-footer-line {
+        border-bottom: 1px solid #e1e1e1;
+        background: #f8f9fa;
+    }
+
+    .footer-nav {
+        font-size: 11px;
+    }
 }
 
 @media (min-width: 450px) and (max-width: 800px) {
+    #nav-con {
+        width: 100%;
+    }
+
     .header-bg {
         height: 50%;
         width: 100%;
@@ -351,17 +404,39 @@ a:hover:not(.footer-link) {
 
     .workers-point {
         line-height: 17px;
-        font-size: 17px;
+        font-size: 23px;
+        margin-top: 60px;
+        font-weight: 450;
+    }
+
+    .workers-info-left {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 500;
+    }
+
+    .workers-info-item {
+        font-size: 16px;
+        line-height: 22px;
+        color: #839096;
     }
 
     .facts-items-counter {
         height: 300px;
     }
 
+    .mission-text,
+    .facts-items-counter-subtext,
+    .audience-text {
+        font-size: 16px;
+        line-height: 25px;
+        color: #8d9aa0;
+    }
+
     .mission-title {
         font-family: 'latobold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
-        font-size: 22px;
-        line-height: 25px;
+        font-size: 30px;
+        line-height: 35px;
     }
 
     .facts-items-counter-value {
@@ -369,45 +444,57 @@ a:hover:not(.footer-link) {
         margin-bottom: 0;
     }
 
+    .numbers-con {
+        margin-top: 30px;
+    }
+
+    .numbers-bg {
+        height: 545px;
+        margin-top: 50px;
+    }
+
     .numbers-title {
         padding-top: 5.25vmax;
-        font-size: 28px;
-        line-height: 33px;
+        font-family: 'latobold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 700;
         text-align: center;
     }
 
-    .numbers-placeholder {
-        height: 50px;
+
+    .numbers-item-description {
+        font-size: 13px;
+        line-height: 22px;
+        color: #839096;
     }
+
 
     .audience-ligal {
         margin-left: 12vmax;
     }
 
-    .facts-numbers-left {
-        font-size: 3vmax;
-    }
 
     .facts-numbers-right {
         margin-top: 20px;
     }
 
     .facts-numbers {
-        padding-top: 60px;
+        padding-top: 30px;
     }
 
     .audience-title {
         font-family: 'latobold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
-        font-size: 28px;
-        line-height: 33px;
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 15px;
+        font-weight: 650;
     }
 
-    .footernav {
-        background-color: #f8f9fa;
-    }
 
     .facts-numbers-left,
-    .facts-numbers-remark-title {
+    .facts-numbers-remark-title,
+    .numbers-item-title {
         font-size: 25px;
         line-height: 35px;
         margin-bottom: 0;
@@ -416,18 +503,34 @@ a:hover:not(.footer-link) {
     .workers-info-con {
         padding-left: 20px;
     }
+
+    .footer-nav {
+        width: 100%;
+        font-size: 12px;
+        border-bottom: 1px solid #e1e1e1;
+    }
+
+    .navbar-footer-line {
+        border-bottom: 1px solid #e1e1e1;
+        background: #f8f9fa;
+    }
 }
 
 @media (min-width: 800px) and (max-width: 2600px) {
+
     .navbar {
         height: 44px;
+    }
+
+    #nav-con {
+        width: 75%;
+        margin: 0 auto;
     }
 
     .header-bg {
         height: 100%;
         width: 100%;
-        font-size: 46px;
-        line-height: 52px;
+
         /* font-family: lato-bold;*/
         background-image: url(https://www.avito.st/s/cc/resources/73f29ad38378.jpg);
         background-size: cover;
@@ -437,13 +540,13 @@ a:hover:not(.footer-link) {
     }
 
     .header-title {
-        width: 50%;
+        width: 65%;
         height: 25%;
+        font-size: 46px;
+        line-height: 52px;
+        font-family: 'latobold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
     }
 
-    #nav-con {
-        width: 75%;
-    }
 
     .facts-items-con {
         padding-bottom: 129px;
@@ -454,14 +557,29 @@ a:hover:not(.footer-link) {
     }
 
     .mission-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .mission-text {
+        font-size: 16px;
+        line-height: 25px;
+        color: #8d9aa0;
+    }
+
+    .mission-title {
         font-family: 'latobold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
         font-size: 30px;
         line-height: 35px;
     }
 
+
+
     .workers-point {
+        margin-top: 60px;
         font-size: 25px;
         line-height: 35px;
+        font-weight: 450;
     }
 
     .facts-items-counter-value {
@@ -474,24 +592,51 @@ a:hover:not(.footer-link) {
         margin-left: 24vmax;
     }
 
+    .numbers-con {
+        margin-top: 40px;
+    }
+
+    .numbers-bg {
+        height: 440px;
+        margin-top: 105px
+    }
+
+    .numbers-row {
+        width: 68%;
+    }
+
     .numbers-title {
         padding-top: 6.25vmax;
         font-size: 38px;
         line-height: 43px;
+        font-weight: 700;
         text-align: center;
     }
 
     .workers-info-left {
         font-size: 38px;
+        line-height: 45px;
+        font-weight: 650;
     }
 
-    .numbers-placeholder {
-        height: 100px;
+    .workers-info-item {
+        font-size: 16px;
+        line-height: 22px;
+        color: #839096;
     }
-
-
+    .workers-info-all{
+        padding-top: 60px;
+    }
     .facts-numbers {
         padding-top: 120px;
+    }
+
+    .facts-section {
+        width: 75%;
+    }
+
+    .audience-section {
+        margin-top: 120px;
     }
 
     .audience-title {
@@ -499,6 +644,7 @@ a:hover:not(.footer-link) {
         font-size: 38px;
         line-height: 43px;
         margin-bottom: 15px;
+        font-weight: 700;
     }
 
     .facts-numbers-left,
@@ -507,10 +653,29 @@ a:hover:not(.footer-link) {
         line-height: 45px;
         margin-bottom: 0;
     }
-}
 
-.facts-numbers-remark-description {
-    font-size: 16px;
-    line-height: 22px;
-    color: #8d9aa0;
+    .numbers-item-title {
+        font-size: 26px;
+        line-height: 31px;
+        font-weight: 447;
+    }
+
+    .numbers-item-description {
+        font-size: 15px;
+        line-height: 22px;
+        color: #839096;
+    }
+
+    .facts-numbers-remark-description {
+        font-size: 16px;
+        line-height: 22px;
+        color: #8d9aa0;
+    }
+
+    .footer-nav {
+        width: 75%;
+        margin: 0 auto;
+        font-size: 0.80vmax;
+        border-bottom: 1px solid #e1e1e1;
+    }
 }
