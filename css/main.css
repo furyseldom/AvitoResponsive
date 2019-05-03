@@ -202,9 +202,10 @@ a:hover:not(.footer-link) {
     }
 
     .workers-point {
+        margin-top: 15%;
         line-height: 17px;
-        font-size: 17px;
-        font-weight: 450;
+        font-size: 15px;
+        font-weight: 400;
     }
 
     .workers-info-left {
@@ -233,16 +234,14 @@ a:hover:not(.footer-link) {
         margin-bottom: 0;
     }
     
-   
-
     .facts-numbers-right {
         margin-top: 10px;
     }
-
-    .workers-info-con {
-        padding-left: 20px;
+     
+    .workers-info-all{
+        padding-top: 60px;
     }
-
+    
     .footer-nav {
         font-size: 11px;
     }
@@ -355,17 +354,19 @@ a:hover:not(.footer-link) {
         line-height: 22px;
         color: #839096;
     }
-
-    .workers-info-con {
-        padding-left: 20px;
-    }
+ ]
 
     .workers-point {
-        line-height: 25px;
-        font-size: 20px;
-        font-weight: 450;
+        margin-top: 5%;
+        line-height: 20px;
+        font-size: 18px;
+        font-weight: 400;
     }
 
+     .workers-info-all{
+        padding-top: 60px;
+    }
+    
     .navbar-footer-line {
         border-bottom: 1px solid #e1e1e1;
         background: #f8f9fa;
@@ -398,11 +399,16 @@ a:hover:not(.footer-link) {
         width: 100%;
         height: 50%;
     }
-
+    
+    .workers-info-all{
+        padding-top: 60px;
+    }
+    
     .workers-point {
-        line-height: 17px;
-        font-size: 23px;
-        font-weight: 450;
+        margin-top: 5%;
+        line-height: 25px;
+        font-size: 20px;
+        font-weight: 400;
     }
 
     .workers-info-left {
@@ -564,15 +570,18 @@ a:hover:not(.footer-link) {
         line-height: 35px;
     }
 
-
-
     .workers-point {
+        margin-top: 5%;
         font-size: 25px;
-        line-height: 35px;
+        line-height: 30px;
         font-weight: 400;
       
     }
-
+    
+    .workers-info-item-row-down{
+        margin-top: 10%;
+    }
+    
     .facts-items-counter-value {
         font-size: 10vmax;
         line-height: 150px;
