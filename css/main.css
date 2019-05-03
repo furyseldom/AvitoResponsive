@@ -203,9 +203,7 @@ a:hover:not(.footer-link) {
 
     .workers-point {
         line-height: 17px;
-        text-shadow: 1px 1px 2.5px #fff;
         font-size: 17px;
-        margin-top: 50px;
         font-weight: 450;
     }
 
@@ -234,6 +232,8 @@ a:hover:not(.footer-link) {
         line-height: 24px;
         margin-bottom: 0;
     }
+    
+   
 
     .facts-numbers-right {
         margin-top: 10px;
@@ -246,6 +246,7 @@ a:hover:not(.footer-link) {
     .footer-nav {
         font-size: 11px;
     }
+
     .navbar-footer-line {
         border-bottom: 1px solid #e1e1e1;
         background: #f8f9fa;
@@ -317,10 +318,6 @@ a:hover:not(.footer-link) {
         font-weight: 600;
     }
 
-    .facts-numbers-left {
-        font-size: 2.5vmax;
-    }
-
     .facts-items-counter-value {
         font-size: 4vmax;
         margin-bottom: 0;
@@ -366,7 +363,6 @@ a:hover:not(.footer-link) {
     .workers-point {
         line-height: 25px;
         font-size: 20px;
-        margin-top: 50px;
         font-weight: 450;
     }
 
@@ -406,7 +402,6 @@ a:hover:not(.footer-link) {
     .workers-point {
         line-height: 17px;
         font-size: 23px;
-        margin-top: 60px;
         font-weight: 450;
     }
 
@@ -450,7 +445,7 @@ a:hover:not(.footer-link) {
     }
 
     .numbers-bg {
-        height: 545px;
+        height: 575px;
         margin-top: 50px;
     }
 
@@ -470,7 +465,10 @@ a:hover:not(.footer-link) {
         color: #839096;
     }
 
-
+     .numbers-item img{
+        margin-bottom: 12px;
+    }
+    
     .audience-ligal {
         margin-left: 12vmax;
     }
@@ -501,13 +499,9 @@ a:hover:not(.footer-link) {
         margin-bottom: 0;
     }
 
-    .workers-info-con {
-        padding-left: 20px;
-    }
-
     .footer-nav {
         width: 100%;
-        font-size: 12px;
+        font-size: 9px;
         border-bottom: 1px solid #e1e1e1;
     }
 
@@ -518,7 +512,6 @@ a:hover:not(.footer-link) {
 }
 
 @media (min-width: 800px) and (max-width: 2600px) {
-
     .navbar {
         height: 44px;
     }
@@ -531,13 +524,10 @@ a:hover:not(.footer-link) {
     .header-bg {
         height: 100%;
         width: 100%;
-
-        /* font-family: lato-bold;*/
         background-image: url(https://www.avito.st/s/cc/resources/73f29ad38378.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-
     }
 
     .header-title {
@@ -577,10 +567,10 @@ a:hover:not(.footer-link) {
 
 
     .workers-point {
-        margin-top: 60px;
         font-size: 25px;
         line-height: 35px;
-        font-weight: 450;
+        font-weight: 400;
+      
     }
 
     .facts-items-counter-value {
@@ -615,9 +605,9 @@ a:hover:not(.footer-link) {
     }
 
     .workers-info-left {
-        font-size: 38px;
+        font-size: 3vmax;
         line-height: 45px;
-        font-weight: 650;
+        font-weight: 500;
     }
 
     .workers-info-item {
@@ -628,6 +618,7 @@ a:hover:not(.footer-link) {
     .workers-info-all{
         padding-top: 60px;
     }
+    
     .facts-numbers {
         padding-top: 120px;
     }
@@ -656,8 +647,12 @@ a:hover:not(.footer-link) {
         font-size: 26px;
         line-height: 31px;
         font-weight: 447;
+        margin-bottom: 9px;
     }
-
+    .numbers-item img{
+        margin-bottom: 9px;
+    }
+    
     .numbers-item-description {
         font-size: 15px;
         line-height: 22px;
