@@ -597,9 +597,12 @@ a:hover:not(.footer-link) {
         margin-top: 10%;
     }
 
-    .facts-items-counter-value {
+    .facts-items-counter-value{
         font-size: 140px;
-        line-height: 150px;
+        line-height: 0px;
+    }
+
+
     }
 
 
